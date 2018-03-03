@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <div class="sidebar-section">
+    <h4>Personal info<h4>
+
+    <strong>Phone<strong>
+    <span></span>
+  </div>
+
+  <div class="sidebar-section">
+    <h4>Skills</h4>
+  </div>
+
+  <div class="sidebar-section">
+    <h4>Languages</h4>
+  </div>
+</div>

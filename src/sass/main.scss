@@ -1,0 +1,18 @@
+@import 'header';
+@import 'sidebar';
+
+.container {
+  width: 960px;
+  margin: 20px auto;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+.main {
+  width: 600px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+@import 'print';

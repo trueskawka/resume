@@ -1,0 +1,10 @@
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  body {
+    margin: 1.6cm;
+  }
+}
