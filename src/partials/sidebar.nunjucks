@@ -2,15 +2,92 @@
   <div class="sidebar-section">
     <h4>Personal info<h4>
 
-    <strong>Phone<strong>
-    <span></span>
+    <div class="contact">
+      <h5>Phone</h5>
+      <span>+1 778-991-6550</span>
+    </div>
+
+    <div class="contact">
+      <h5>Website</h5>
+      <span>https://trueskawka.recurse.com</span>
+    </div>
+
+    <div class="contact">
+      <h5>Email</h5>
+      <span>alicja.raszkowska@gmail.com</span>
+    </div>
   </div>
 
   <div class="sidebar-section">
     <h4>Skills</h4>
+    
+    <p class="skill">
+      <strong>Python</strong>
+      <span>4</span>
+    </p>
+
+    <p class="skill">
+      <strong>JavaScript</strong>
+      <span>4</span>
+    </p>
+
+    <p class="skill">
+      <strong>R</strong>
+      <span>4</span>
+    </p>
+
+    <p class="skill">
+      <strong>PHP</strong>
+      <span>3</span>
+    </p>
+
+    <p class="skill">
+      <strong>data science</strong>
+      <span>4</span>
+    </p>
+
+    <p class="skill">
+      <strong>analytics</strong>
+      <span>5</span>
+    </p>
+
+    <p class="skill">
+      <strong>web development</strong>
+      <span>4</span>
+    </p>
+
+    <p class="skill">
+      <strong>Ruby</strong>
+      <span>3</span>
+    </p>
+
+    <p class="skill">
+      <strong></strong>
+      <span></span>
+    </p>
+
+    <p class="skill">
+      <strong></strong>
+      <span></span>
+    </p>
+
   </div>
 
   <div class="sidebar-section">
     <h4>Languages</h4>
+    <p class="language">
+      <strong>English</strong>
+      <span> - proficient, C2</span>
+    </p>
+    <p class="language">
+      <strong>Polish</strong>
+      <span> - native</span>
+    </p>
+    <p class="language">
+      <strong>German</strong>
+      <span> - upper intermediate, B2</span></p>
+    <p class="language">
+      <strong>Arabic</strong>
+      <span> - intermediate, A2/B1</span></p>
   </div>
 </div>

@@ -1,7 +1,11 @@
 .sidebar {
-  width: 300px;
-  padding: 0 10px;
+  width: 215px;
+  padding: 10px 0 10px 20px;
   display: inline-block;
   position: relative;
   vertical-align: top;
+}
+
+.sidebar-section {
+  padding-top: 10px;
 }

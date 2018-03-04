@@ -1,2 +1,4 @@
-<h2>Alicja Raszkowska</h2>
-<h3>software developer</h3>
+<div class="header">
+  <h1>Alicja Raszkowska</h1>
+  {# <h2>software developer</h2> #}
+</div>
