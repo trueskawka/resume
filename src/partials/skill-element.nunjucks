@@ -1,14 +1,14 @@
 <div class="skill">
-  <strong>{{ skill_name }}</strong>
-  {% if skill_level == 1 %}
-    <div class="level level-1"></div>
-  {% elseif skill_level == 2 %}
-    <div class="level level-2"></div>
-  {% elseif skill_level == 3 %}
-    <div class="level level-3"></div>
-  {% elseif skill_level == 4 %}
-    <div class="level level-4"></div>
-  {% else %}
-    <div class="level level-5"></div>
-  {% endif %}
-</div>
+                <strong>{{ skill_name }}</strong>
+                {% if skill_level == 1 -%}
+                  <div class="level level-1"></div>
+                {% elseif skill_level == 2 -%}
+                  <div class="level level-2"></div>
+                {% elseif skill_level == 3 -%}
+                  <div class="level level-3"></div>
+                {% elseif skill_level == 4 -%}
+                  <div class="level level-4"></div>
+                {% else -%}
+                  <div class="level level-5"></div>
+                {% endif %}
+              </div>

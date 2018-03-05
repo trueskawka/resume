@@ -23,7 +23,7 @@ gulp.task('addCSS', function(callback) {
            postcss(postcssProcessors, {syntax: scss})
         )
         .pipe(
-            sass({ outputStyle: 'compressed' })
+            sass({ outputStyle: 'compact' })
             .on('error', gutil.log)
         )
         .pipe(gulp.dest('build/css/'));

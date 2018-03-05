@@ -1,22 +1,22 @@
 <div class="experience-element">
-  <div class="experience-dates">
-    {{ date_from }}
-    <br>
-    {{ date_to }}
-  </div>
-  <div class="experience-details">
-    <div class="experience-title">
-      {{ job_title }}
-    </div>
-    <div class="experience-description">
-      {{ job_description }}
-    </div>
-    <div class="experience-bullets">
-      <ul>
-        {% for element in job_bullets %}
-          <li>{{ element }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+            <div class="experience-dates">
+              {{ date_from }}
+              <br>
+              {{ date_to }}
+            </div>
+            <div class="experience-details">
+              <div class="experience-title">
+                {{ job_title }}
+              </div>
+              <div class="experience-description">
+                {{ job_description }}
+              </div>
+              <div class="experience-bullets">
+                <ul>
+                  {% for element in job_bullets -%}
+                    <li>{{ element }}</li>
+                  {% endfor -%}
+                </ul>
+              </div>
+            </div>
+          </div>

@@ -1,5 +1,5 @@
 <div class="header">
-  <h1>{{ data.name }}</h1>
-  <h3>{{ data.phone }} &middot; {{ data.email }}</h3>
-  <h3>{{ data.github }} &middot; {{ data.linkedin }} &middot; {{ data.website }}</h3>
-</div>
+        <h1>{{ data.name }}</h1>
+        <h3>{{ data.phone }} &middot; {{ data.email }}</h3>
+        <h3>{{ data.github }} &middot; {{ data.linkedin }} &middot; {{ data.website }}</h3>
+      </div>

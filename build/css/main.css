@@ -1,1 +1,59 @@
-body{font-family:"PT Sans", "Lucida Sans", sans-serif;font-size:13px;margin:0;background-color:lightgray}.container{width:900px;margin:0 auto;vertical-align:top;background-color:white}h1,h2{font-weight:500}h4{padding:0;margin:0 0 1em 0}.header{background-color:#8f4898;padding:5px 0;width:900px;color:white;text-align:center}.sidebar{background-color:#f4f5f7;width:166.5px;height:1104.49px;padding:10px 0 10px 10px;display:inline-block;position:relative;vertical-align:top}.sidebar-section{padding-top:10px}.sidebar-section-title{display:block;font-size:1.2em;font-weight:700;text-transform:capitalize;padding-bottom:3px}.skill-section-title{display:block;font-size:1.1em;font-weight:500}.skill-section{display:block;margin:10px 0}.skill{padding:10px 0}.experience{width:680px;display:inline-block;position:relative;vertical-align:top;padding:10px 20px 0 20px}.experience-section{padding-bottom:10px}.experience-section-title{font-size:1.2em;font-weight:400;display:block;padding:0 0 5px 0;text-transform:uppercase}.experience-summary{padding:10px 0}.experience-title{font-size:1.2em;margin-bottom:3px;display:block}.experience-element{display:inline-grid;grid-template-columns:150px auto}.experience-dates{margin-right:10px}.experience-title{font-weight:600}.experience-description{font-style:italic}.experience-bullets>ul{padding:0;margin-top:3px;margin-bottom:7px}.education-element{padding-bottom:7px}.level{color:#8f4898;width:50px;height:8px;border:1px solid currentColor;float:right;margin-right:20px;margin-top:3px}.level-1{background:linear-gradient(to right, currentColor 0%, currentColor 20%, white 20%, white 100%);background:url("./images/bg-1.png")}.level-2{background:linear-gradient(to right, currentColor 0%, currentColor 40%, white 40%, white 100%);background:url("./images/bg-2.png")}.level-3{background:linear-gradient(to right, currentColor 0%, currentColor 60%, white 60%, white 100%);background:url("./images/bg-3.png")}.level-4{background:linear-gradient(to right, currentColor 0%, currentColor 80%, white 80%, white 100%);background:url("./images/bg-4.png")}.level-5{background:currentColor}@media print{@page{size:A4 portrait;margin:0}body{margin:0;-webkit-print-color-adjust:exact}}
+body { font-family: "PT Sans", "Lucida Sans", sans-serif; font-size: 13px; margin: 0; background-color: lightgray; }
+
+.container { width: 900px; margin: 0 auto; vertical-align: top; background-color: white; }
+
+h1, h2 { font-weight: 500; }
+
+h4 { padding: 0; margin: 0 0 1em 0; }
+
+.header { background-color: #8f4898; padding: 5px 0; width: 900px; color: white; text-align: center; }
+
+.sidebar { background-color: #f4f5f7; width: 166.5px; height: 1104.49px; padding: 10px 0 10px 10px; display: inline-block; position: relative; vertical-align: top; }
+
+.sidebar-section { padding-top: 10px; }
+
+.sidebar-section-title { display: block; font-size: 1.2em; font-weight: 700; text-transform: capitalize; padding-bottom: 3px; }
+
+.skill-section-title { display: block; font-size: 1.1em; font-weight: 500; }
+
+.skill-section { display: block; margin: 10px 0; }
+
+.skill { padding: 10px 0; }
+
+.experience { width: 680px; display: inline-block; position: relative; vertical-align: top; padding: 10px 20px 0 20px; }
+
+.experience-section { padding-bottom: 10px; }
+
+.experience-section-title { font-size: 1.2em; font-weight: 400; display: block; padding: 0 0 5px 0; text-transform: uppercase; }
+
+.experience-summary { padding: 10px 0; }
+
+.experience-title { font-size: 1.2em; margin-bottom: 3px; display: block; }
+
+.experience-element { display: inline-grid; grid-template-columns: 150px auto; }
+
+.experience-dates { margin-right: 10px; }
+
+.experience-title { font-weight: 600; }
+
+.experience-description { font-style: italic; }
+
+.experience-bullets > ul { padding: 0; margin-top: 3px; margin-bottom: 7px; }
+
+.education-element { padding-bottom: 7px; }
+
+.level { color: #8f4898; width: 50px; height: 8px; border: 1px solid currentColor; float: right; margin-right: 20px; margin-top: 3px; }
+
+.level-1 { background: linear-gradient(to right, currentColor 0%, currentColor 20%, white 20%, white 100%); background: url("./images/bg-1.png"); }
+
+.level-2 { background: linear-gradient(to right, currentColor 0%, currentColor 40%, white 40%, white 100%); background: url("./images/bg-2.png"); }
+
+.level-3 { background: linear-gradient(to right, currentColor 0%, currentColor 60%, white 60%, white 100%); background: url("./images/bg-3.png"); }
+
+.level-4 { background: linear-gradient(to right, currentColor 0%, currentColor 80%, white 80%, white 100%); background: url("./images/bg-4.png"); }
+
+.level-5 { background: currentColor; }
+
+@media print { @page { size: A4 portrait;
+    margin: 0; }
+  body { margin: 0; -webkit-print-color-adjust: exact; } }
