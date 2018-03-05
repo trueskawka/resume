@@ -7,7 +7,7 @@
 
     <div class="container">
       {% include "partials/header.nunjucks" %}
-      {% include "partials/main.nunjucks" %}
+      {% include "partials/experience.nunjucks" %}
       {% include "partials/sidebar.nunjucks" %}
     </div>
 
