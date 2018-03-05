@@ -1,0 +1,78 @@
+{
+  "name": "",
+  "phone": "",
+  "email": "",
+  "github": "",
+  "linkedin": "",
+  "website": "",
+  "summary": {
+    "title": "",
+    "intro": ""
+  },
+  "sections": [
+    "experience",
+    "volunteer and part-time work",
+    "education"
+  ],
+  "experience": [
+    {
+      "date_from": "",
+      "date_to": "",
+      "job_title": "",
+      "job_description": "",
+      "job_bullets": [
+       ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "date_from": "",
+      "date_to": "",
+      "job_title": "",
+      "job_bullets": [
+       ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "edu_title": "",
+      "edu_description": ""
+    }
+  ],
+  "sidebar_sections": [
+    "skills",
+    "software",
+    "languages"
+  ],
+  "skill_categories": [
+    "web development",
+    "analytics",
+    "soft skills"
+  ],
+  "skills": [
+    {
+      "skill_name": "",
+      "skill_level": "",
+      "skill_category": ""
+    }
+  ],
+  "software_categories": [
+    "developer tools",
+    "office software"
+  ],
+  "software": [
+    {
+      "software_name": "",
+      "software_level": "",
+      "software_category": ""
+    }
+  ],
+  "languages": [ 
+    {
+      "language": "",
+      "language_level": ""
+    }
+  ]
+}
