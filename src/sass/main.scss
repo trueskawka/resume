@@ -3,10 +3,12 @@ body {
   font-size: 13px;
   margin: 0;
   background-color: lightgray;
+  min-width: 900px;
 }
 
 .container {
   width: 900px;
+  overflow: auto;
   margin: 0 auto;
   vertical-align: top;
   background-color: white;

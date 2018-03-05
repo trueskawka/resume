@@ -1,6 +1,6 @@
-body { font-family: "PT Sans", "Lucida Sans", sans-serif; font-size: 13px; margin: 0; background-color: lightgray; }
+body { font-family: "PT Sans", "Lucida Sans", sans-serif; font-size: 13px; margin: 0; background-color: lightgray; min-width: 900px; }
 
-.container { width: 900px; margin: 0 auto; vertical-align: top; background-color: white; }
+.container { width: 900px; overflow: auto; margin: 0 auto; vertical-align: top; background-color: white; }
 
 h1, h2 { font-weight: 500; }
 
@@ -8,7 +8,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
 
 .header { background-color: #8f4898; padding: 5px 0; width: 900px; color: white; text-align: center; }
 
-.sidebar { background-color: #f4f5f7; width: 166.5px; height: 1104.49px; padding: 10px 0 10px 10px; display: inline-block; position: relative; vertical-align: top; }
+.sidebar { background-color: #f4f5f7; width: 166.5px; height: 100%; padding: 10px 0 10px 10px; float: right; vertical-align: top; }
 
 .sidebar-section { padding-top: 10px; }
 
@@ -20,7 +20,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
 
 .skill { padding: 10px 0; }
 
-.experience { width: 680px; display: inline-block; position: relative; vertical-align: top; padding: 10px 20px 0 20px; }
+.experience { width: 680px; float: left; vertical-align: top; padding: 10px 20px 0 20px; }
 
 .experience-section { padding-bottom: 10px; }
 
