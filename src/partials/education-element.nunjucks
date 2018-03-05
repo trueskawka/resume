@@ -1,0 +1,10 @@
+<div class="education-element">
+  <div class="experience-details">
+    <div class="experience-title">
+     {{ edu_title }} 
+    </div>
+    <div class="experience-description">
+      {{ edu_description }}
+    </div>
+  </div>
+</div>

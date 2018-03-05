@@ -29,24 +29,10 @@
 
   <div class="experience-section">
     <span class="experience-section-title">{{ data.sections[2] }}</span>
-    
-    <div class="experience-element">
-      <div class="experience-title">
-        Recurse Center – New York, NY
-      </div>
-      <div class="experience-description">
-        Self-directed programming retreat. Attended August - November 2016 and January - February 2018
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-title">
-        Warsaw School of Economics – Warsaw, Poland
-      </div>
-      <div class="experience-description">
-        Quantitative Methods in Economics and Information Systems, MSc (2012-2015, while working full-time), BSc (2008-2012)
-      </div>
-    </div>
-
+    {% for edu in data.education %}
+      {% set edu_title = edu.edu_title %}
+      {% set edu_description = edu.edu_description %}
+      {% include "partials/education-element.nunjucks" %}
+    {% endfor %}
   </div>
 </div>

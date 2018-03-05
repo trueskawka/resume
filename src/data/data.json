@@ -84,5 +84,15 @@
         "Helped teach young people (9-15) Python and Scratch (7-12)"
       ]
     }
+  ],
+  "education": [
+    {
+      "edu_title": "Recurse Center – New York, NY",
+      "edu_description": "Self-directed programming retreat. Attended August - November 2016 and January - February 2018"
+    },
+    {
+      "edu_title": "Warsaw School of Economics – Warsaw, Poland",
+      "edu_description": "Quantitative Methods in Economics and Information Systems, MSc (2012-2015, while working full-time), BSc (2008-2012)"
+    }
   ]
 }
