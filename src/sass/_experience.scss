@@ -6,6 +6,48 @@
   padding: 10px 0 10px 20px;
 }
 
+.experience-section {
+  padding-bottom: 10px;
+}
+
+.experience-section-title {
+  font-size: 1.2em;
+  font-weight: 400;
+  display: block;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
 .experience-summary {
   padding: 10px 0;
+}
+
+.experience-title {
+  font-size: 1.2em;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.experience-element {
+  display: inline-grid;
+  grid-template-columns: 150px auto;
+
+}
+
+.experience-dates {
+  margin-right: 10px;
+}
+
+.experience-title {
+  font-weight: 600;
+}
+
+.experience-description {
+  font-style: italic;
+}
+
+.experience-bullets > ul {
+  padding: 0;
+  margin-top: 3px;
+  margin-bottom: 7px;
 }

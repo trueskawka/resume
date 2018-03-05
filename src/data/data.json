@@ -2,5 +2,87 @@
   "summary": {
     "title": "Quantitative economist turned web developer",
     "intro": "Looking for a role with a lot of responsibility, preferably working end-to-end with clients and their data (analyzing, planning, implementing and presenting), using JavaScript, CSS, Python/R."
-  }
+  },
+  "sections": [
+    "experience",
+    "volunteer and part-time work",
+    "education"
+  ],
+  "experience": [
+    {
+      "date_from": "March 2017",
+      "date_to": "to Present",
+      "job_title": "Freelance, Web Developer",
+      "job_description": "Contract full-stack web development for clients including Xfive.co and Laboratorium EE",
+      "job_bullets": [
+       "Lead a technical redesign sprint to plan new features and improve code quality",
+       "Improved code review and developer onboarding processes",
+       "Created a framework for building HTML email templates in Node.js",
+       "Mentored two junior frontend developers in code review practices, testing and structuring code"
+      ]
+    },
+    {
+      "date_from": "December 2016",
+      "date_to": "to March 2017",
+      "job_title": "Outreachy (Zulip.org), Open Source Internship",
+      "job_description": "Selected for Outreachy internship program to work on Zulip, the open source group chat",
+      "job_bullets": [
+        "Worked on user experience through discussions, improving developer and user docs",
+        "Conducted code reviews and worked in Python, Django, JavaScript, HTML, and CSS"
+      ]
+     },
+     {
+      "date_from": "August 2015",
+      "date_to": "to May 2016",
+      "job_title": "Goldenberry, Business Analyst and Web Developer",
+      "job_description": "Transitioned from Business Analyst to Web Developer at GdziePoLek.pl, a startup launched and owned by Goldenberry",
+      "job_bullets": [
+        "Full-stack development using C#, JavaScript, HTML, CSS, and ASP.NET",
+        "Built new features, e.g. visualizations of price over time, maintained and improved legacy code base",
+        "Generated sites for each drug and city pair in the database, which improved GdziePoLek.pl's positioning in the search engine for specific search terms from top 10-15 result to top 1-3 result"
+      ]
+     },
+     {
+      "date_from": "June 2013",
+      "date_to": "to August 2015",
+      "job_title": "Ministry of Health (Poland), Senior Specialist",
+      "job_description": "Worked as a data analyst, collaborated on healthcare initiatives",
+      "job_bullets": [
+        "Created a framework for data analyses and visualizations using R, SQL and MS Excel",
+        "Main analyst during national negotiations concerning primary healthcare funding in December 2014)",
+        "Took part in a 6-week training for Regulatory Impact Assessments (RIAs) at the Department of Health (England)",
+        "Trained members of the Polish RIA healthcare team in writing and assessing RIAs, assessed over 200 RIAs",
+        "Lead the Evidence Informed Policy Network initiative (partnership with WHO)"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "date_from": "May 2017",
+      "date_to": "to Present",
+      "job_title": "Recurse Center, Contract Alumni Interviewer",
+      "job_bullets": [
+        "Conduct conversational and live-coding admissions interviews; worked in numerous programming languages",
+        "Evaluating applicants’ programming ability and fit for program"
+      ]
+    },
+    {
+      "date_from": "Nov 2016 to Jan 2017",
+      "date_to": "Jun 2017 to Sept 2017",
+      "job_title": "Zulip, Mentor and Org Admin",
+      "job_bullets": [
+        "Google Code-In - mentored high school students participating in the competition",
+        "Google Summer of Code - mentored two students in contributing to web app and React Native mobile client"
+      ]
+    },
+    {
+      "date_from": "January 2017",
+      "date_to": "to May 201",
+      "job_title": "Girls Code Fun (Polish NGO)",
+      "job_bullets": [
+        "Created a course for new programmers in Python",
+        "Helped teach young people (9-15) Python and Scratch (7-12)"
+      ]
+    }
+  ]
 }

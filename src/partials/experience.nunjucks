@@ -5,143 +5,31 @@
   </div>
 
   <div class="experience-section">
-    <span class="experience-section-title">Experience</span>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        March 2017 to Present
-      </div>
-      <div class="experience-title">
-        Freelance, Web Developer
-      </div>
-      <div class="experience-description">
-        Contract full-stack web development for clients including Xfive.co and Laboratorium EE
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Lead a technical redesign sprint to plan new features and improve code quality</li>
-          <li>Improved code review and developer onboarding processes</li>
-          <li>Created a framework for building HTML email templates in Node.js</li>
-          <li>Mentored two junior frontend developers in code review practices, testing and structuring code</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        December 2016 to March 2017
-      </div>
-      <div class="experience-title">
-        Outreachy (Zulip.org), Open Source Internship
-      </div>
-      <div class="experience-description">
-        Selected for Outreachy internship program to work on Zulip, the open source group chat app
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Worked on user experience through discussions, improving developer and user docs</li>
-          <li>Conducted code reviews and worked in Python, Django, JavaScript, HTML, and CSS</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-         August 2015 to May 2016
-      </div>
-      <div class="experience-title">
-        Goldenberry, Business Analyst and Web Developer
-      </div>
-      <div class="experience-description">
-        Transitioned from Business Analyst to Web Developer at GdziePoLek.pl, a startup launched and owned by Goldenberry
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Full-stack development using C#, JavaScript, HTML, CSS, and ASP.NET</li>
-          <li>Built new features, e.g. visualizations of price over time, maintained and improved legacy code base</li>
-          <li>Generated sites for each drug and city pair in the database, which improved GdziePoLek.pl positioning 
-              in the search engine for specific search terms from top 10-15 result to top 1-3 result</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        June 2013 to August 2015
-      </div>
-      <div class="experience-title">
-        Ministry of Health (Poland), Senior Specialist 
-      </div>
-      <div class="experience-description">
-        Worked as a data analyst, collaborated on healthcare initiatives including implementation of a WHO partnership
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Created a framework for data analyses and visualizations using R, SQL and MS Excel</li>
-          <li>Main analyst during national negotiations concerning primary healthcare funding in December 2014)</li>
-          <li>Took part in a 6-week training for Regulatory Impact Assessments (RIAs) at the Department of Health (England)</li>
-          <li>Trained members of the Polish RIA healthcare team in writing and assessing RIAs, assessed over 200 RIAs</li>
-          <li>Lead the Evidence Informed Policy Network initiative (partnership with WHO)</li>
-        </ul>
-      </div>
-    </div>
-
+    <span class="experience-section-title">{{ data.sections[0] }}</span>
+    {% for job in data.experience %}
+      {% set date_from = job.date_from %}
+      {% set date_to = job.date_to %}
+      {% set job_title = job.job_title %}
+      {% set job_description = job.job_description %}
+      {% set job_bullets = job.job_bullets %}
+      {% include "partials/experience-element.nunjucks" %}
+    {% endfor %}
   </div>
 
   <div class="experience-section">
-    <h4>Volunteer and part-time work</h4>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        May 2017 to Present
-      </div>
-      <div class="experience-title">
-        Recurse Center, Contract Alumni Interviewer
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Conduct conversational and live-coding admissions interviews; worked in numerous programming languages</li>
-          <li>Evaluating applicants’ programming ability and fit for program</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        November 2016 to January 2017 
-        June 2017 to September 2017
-      </div>
-      <div class="experience-title">
-        Zulip, Mentor and Org Admin
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Google Code-In - mentored high school students participating in the competition</li>
-          <li>Google Summer of Code - mentored two students in contributing to web app and React Native mobile client</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-element">
-      <div class="experience-dates">
-        January 2017 to May 2017
-      </div>
-      <div class="experience-title">
-        Girls Code Fun (Polish NGO)
-      </div>
-      <div class="experience-bullets">
-        <ul>
-          <li>Created a course for new programmers in Python</li>
-          <li>Helped teach young people (9-15) Python and Scratch (7-12)</li>
-        </ul>
-      </div>
-    </div>
-
+    <span class="experience-section-title">{{ data.sections[1] }}</span>
+    {% for job in data.volunteer %}
+      {% set date_from = job.date_from %}
+      {% set date_to = job.date_to %}
+      {% set job_title = job.job_title %}
+      {% set job_bullets = job.job_bullets %}
+      {% include "partials/experience-element.nunjucks" %}
+    {% endfor %}
   </div>
 
   <div class="experience-section">
-    <span class="experience-section-title">Education</span>
-
+    <span class="experience-section-title">{{ data.sections[2] }}</span>
+    
     <div class="experience-element">
       <div class="experience-title">
         Recurse Center – New York, NY
