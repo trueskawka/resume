@@ -1,0 +1,4 @@
+<p class="language">
+  <strong>{{ language }}</strong>
+  <span>{{ language_level }}</span>
+</p>

@@ -227,5 +227,23 @@
       "software_level": "",
       "software_category": ""
     }
+  ],
+  "languages": [ 
+    {
+      "language": "English",
+      "language_level": "proficient, C2"
+    },
+    {
+      "language": "Polish",
+      "language_level": "native"
+    },
+    {
+      "language": "German",
+      "language_level": "intermediate, B2"
+    },
+    {
+      "language": "Arabic",
+      "language_level": "intermediate, A2/B1"
+    }
   ]
 }

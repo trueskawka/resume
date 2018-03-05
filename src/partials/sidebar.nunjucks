@@ -59,19 +59,10 @@
 
   <div class="sidebar-section">
     <span class="sidebar-section-title">{{ data.sidebar_sections[2] }}</span>
-    <p class="language">
-      <strong>English</strong>
-      <span> - proficient, C2</span>
-    </p>
-    <p class="language">
-      <strong>Polish</strong>
-      <span> - native</span>
-    </p>
-    <p class="language">
-      <strong>German</strong>
-      <span> - upper intermediate, B2</span></p>
-    <p class="language">
-      <strong>Arabic</strong>
-      <span> - intermediate, A2/B1</span></p>
+    {% for lang in data.languages %}
+      {% set language = lang.language %}
+      {% set language_level = lang.language_level %}
+      {% include "partials/language-element.nunjucks" %}
+    {% endfor %}
   </div>
 </div>
