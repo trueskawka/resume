@@ -21,7 +21,10 @@ h4 {
   margin: 0 0 1em 0;
 }
 
+$brand-color: #8f4898;
+
 @import 'header';
 @import 'sidebar';
 @import 'experience';
+@import 'skill';
 @import 'print';

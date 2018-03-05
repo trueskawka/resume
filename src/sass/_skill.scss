@@ -1,0 +1,65 @@
+.level {
+  color: $brand-color;
+  width: 50px;
+  height: 8px;
+  border: 1px solid currentColor;
+  float: right;
+  margin-right: 20px;
+  margin-top: 3px;
+} 
+
+.level-1 {
+  background:
+    linear-gradient(
+      to right,
+      currentColor 0%,
+      currentColor 20%,
+      white 20%,
+      white 100%
+    );
+  // Chrome wouldn't print gradient backgrounds 
+  background: url('./images/bg-1.png');
+}
+
+.level-2 {
+  background:
+    linear-gradient(
+      to right,
+      currentColor 0%,
+      currentColor 40%,
+      white 40%,
+      white 100%
+    );
+
+  background: url('./images/bg-2.png');
+}
+
+.level-3 {
+  background:
+    linear-gradient(
+      to right,
+      currentColor 0%,
+      currentColor 60%,
+      white 60%,
+      white 100%
+    );
+
+  background: url('./images/bg-3.png');
+}
+
+.level-4 {
+  background:
+    linear-gradient(
+      to right,
+      currentColor 0%,
+      currentColor 80%,
+      white 80%,
+      white 100%
+    );
+
+  background: url('./images/bg-4.png');
+}
+
+.level-5 {
+  background: currentColor;
+}

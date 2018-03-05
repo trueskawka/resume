@@ -94,5 +94,138 @@
       "edu_title": "Warsaw School of Economics – Warsaw, Poland",
       "edu_description": "Quantitative Methods in Economics and Information Systems, MSc (2012-2015, while working full-time), BSc (2008-2012)"
     }
+  ],
+  "sidebar_sections": [
+    "skills",
+    "software",
+    "languages"
+  ],
+  "skill_categories": [
+    "web development",
+    "analytics",
+    "soft skills"
+  ],
+  "skills": [
+    {
+      "skill_name": "CSS",
+      "skill_level": "5",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "HTML",
+      "skill_level": "5",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "JavaScript",
+      "skill_level": "4",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "Python",
+      "skill_level": "4",
+      "skill_category": "analytics"
+    },
+    {
+      "skill_name": "Ruby",
+      "skill_level": "3",
+      "skill_category": "analytics"
+    },
+    {
+      "skill_name": "PHP",
+      "skill_level": "3",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "Rails",
+      "skill_level": "3",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "Sinatra",
+      "skill_level": "4",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "Jekyll",
+      "skill_level": "5",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "Node.js",
+      "skill_level": "4",
+      "skill_category": "web"
+    },
+    {
+      "skill_name": "R",
+      "skill_level": "5",
+      "skill_category": "data"
+    },
+    {
+      "skill_name": "Visualization",
+      "skill_level": "4",
+      "skill_category": "data"
+    },
+    {
+      "skill_name": "Modeling",
+      "skill_level": "3",
+      "skill_category": "data"
+    },
+    {
+      "skill_name": "Public speaking",
+      "skill_level": "5",
+      "skill_category": "soft"
+    }
+  ],
+  "software_categories": [
+    "developer tools",
+    "office software"
+  ],
+  "software": [
+    {
+      "software_name": "Git",
+      "software_level": "5",
+      "software_category": "devtools"
+    },
+    {
+      "software_name": "GitHub",
+      "software_level": "5",
+      "software_category": "devtools"
+    },
+    {
+      "software_name": "Bash",
+      "software_level": "4",
+      "software_category": "devtools"
+    },
+    {
+      "software_name": "Excel",
+      "software_level": "5",
+      "software_category": "office"
+    },
+    {
+      "software_name": "VBA",
+      "software_level": "3",
+      "software_category": "office"
+    },
+    {
+      "software_name": "PowerPoint",
+      "software_level": "5",
+      "software_category": "office"
+    },
+    {
+      "software_name": "",
+      "software_level": "",
+      "software_category": ""
+    },
+    {
+      "software_name": "",
+      "software_level": "",
+      "software_category": ""
+    },
+    {
+      "software_name": "",
+      "software_level": "",
+      "software_category": ""
+    }
   ]
 }
