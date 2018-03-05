@@ -1,4 +1,5 @@
 <div class="header">
-  <h1>Alicja Raszkowska</h1>
-  {# <h2>software developer</h2> #}
+  <h1>{{ data.name }}</h1>
+  <h3>{{ data.phone }} &middot; {{ data.email }}</h3>
+  <h3>{{ data.github }} &middot; {{ data.linkedin }} &middot; {{ data.website }}</h3>
 </div>
