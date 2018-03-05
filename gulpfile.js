@@ -11,6 +11,10 @@ var postcssProcessors = [
 ]
 
 var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
+var globalData = {
+  data: require('./src/data/data.json')
+}
 
 // generate main.css
 gulp.task('addCSS', function(callback) {
@@ -28,6 +32,9 @@ gulp.task('addCSS', function(callback) {
 // generate index.html
 gulp.task('nunjucks', ['addCSS'], function() {
     return gulp.src('src/*.nunjucks')
+        .pipe(data(function() {
+            return globalData
+        }))
         .pipe(
             nunjucksRender({
                 path: ['src/', 'build/css/']
@@ -48,9 +55,9 @@ gulp.task('connect', function() {
 
 // watch files
 var filesToWatch = [
-    'src/sass/**/*.scss',
+    'src/sass/*.scss',
     'src/partials/*.nunjucks',
-    'src/*.nunjucks',
+    'src/*.nunjucks'
 ]
 
 gulp.task('watch', function() {

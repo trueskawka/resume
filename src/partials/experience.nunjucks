@@ -1,6 +1,7 @@
 <div class="experience">
   <div class="experience-summary">
-    Highly creative human being.
+    <span class="experience-title">{{ data.summary.title }}</span>
+    {{ data.summary.intro }}
   </div>
 
   <div class="experience-section">
