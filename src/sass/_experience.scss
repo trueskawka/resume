@@ -18,7 +18,8 @@
 }
 
 .experience-summary {
-  padding: 10px 0;
+  margin: 10px auto;
+  display: inline-block;
 }
 
 .experience-title {
@@ -28,13 +29,12 @@
 }
 
 .experience-element {
-  display: inline-grid;
-  grid-template-columns: 150px auto;
-
+  display: flex;
 }
 
 .experience-dates {
   margin-right: 10px;
+  min-width: 120px;
 }
 
 .experience-title {

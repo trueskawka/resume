@@ -1,0 +1,40 @@
+<div class="skills">
+        <div class="skill-section">
+          <span class="skill-section-title">{{ data.skill_categories[0] | capitalize}}</span>
+          {% for skill in data.skills -%}
+            {% if skill.skill_category == "web" -%}
+              {% set skill_name = skill.skill_name -%}
+              {% include "partials/skill-element.nunjucks" %}
+            {% endif -%}
+          {% endfor %}
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">{{ data.skill_categories[1] | capitalize}}</span>
+          {% for skill in data.skills -%}
+            {% if skill.skill_category == "data" -%}
+              {% set skill_name = skill.skill_name -%}
+              {% include "partials/skill-element.nunjucks" %}
+            {% endif -%}
+          {% endfor %} 
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">{{ data.skill_categories[2] | capitalize}}</span>
+          {% for skill in data.skills -%}
+            {% if skill.skill_category == "soft" -%}
+              {% set skill_name = skill.skill_name -%}
+              {% include "partials/skill-element.nunjucks" -%}
+            {% endif -%}
+          {% endfor %} 
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">{{ data.skill_categories[3] | capitalize }}</span>
+          {% for lang in data.languages -%}
+            {% set language = lang.language -%}
+            {% set language_level = lang.language_level -%}
+            {% include "partials/language-element.nunjucks" %}
+          {% endfor %}
+        </div>
+      </div>

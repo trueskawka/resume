@@ -1,7 +1,16 @@
 .header {
   background-color: $brand-color;
   padding: 5px 0;
-  width: 900px;
+  width: 300px;
   color: white;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-shadow: 0 0 10px white;
 }

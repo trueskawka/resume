@@ -22,13 +22,13 @@ editor would allow. Also, it's fun to set up tools!
 
   I used this tool to generate my resume - I expanded the CSS and cleared some minor whitespace
   annoyances, but other than that it's what you can expect from this setup.
-  https://trueskawka.github.io/resume/
+  https://trueskawka.github.io/mini-jekyll-deploy/resume/
 
 2. Printed .pdf
 
   You can print the file and save it as .pdf - I use Chrome, because it doesn't add additional margins.
 
-  ![image of generated .pdf](./generated_resume.png)
+  ![image of generated .pdf](./generated_resume_new.png)
 
 ### What's up with...
 
@@ -37,17 +37,11 @@ editor would allow. Also, it's fun to set up tools!
   I wanted to make sure the generated HTML is easily readable, which often requires
   the `nunjucks` partials to have some unusual whitespace choices.
 
-2. ...images for skill levels - aren't those already created with linear gradients?
-
-  I added images for skill levels because printing as .pdf in Chrome didn't support
-  linear gradients as background. If you don't want to print the file, feel free to 
-  remove the images altogether.
-
-3. ...the compact CSS?
+2. ...the compact CSS?
 
   I used a standard Sass option for the compact CSS output. You can change it in the
-  `gulpfile` to any of the: `nested`, `expanded` or `compressed` 
-  ([more info](https://web-design-weekly.com/2014/06/15/different-sass-output-styles/) 
+  `gulpfile` to any of the: `nested`, `expanded` or `compressed`
+  ([more info](https://web-design-weekly.com/2014/06/15/different-sass-output-styles/)
   on the output of different options).
 
 ### License

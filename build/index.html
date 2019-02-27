@@ -8,21 +8,23 @@
 
   <style type="text/css">body { font-family: "PT Sans", "Lucida Sans", sans-serif; font-size: 13px; margin: 0; background-color: lightgray; min-width: 900px; }
 
-.container { width: 900px; overflow: auto; margin: 0 auto; vertical-align: top; background-color: white; }
+.container { margin: 0 auto; width: 900px; overflow: auto; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-h1, h2 { font-weight: 500; }
+h1 { font-weight: 500; font-size: 2.2em; }
+
+h3 { font-weight: 300; }
 
 h4 { padding: 0; margin: 0 0 1em 0; }
 
-.header { background-color: #8f4898; padding: 5px 0; width: 900px; color: white; text-align: center; }
+.header { background-color: #e43156; padding: 5px 0; width: 300px; color: white; text-align: center; }
 
-.sidebar { background-color: #f4f5f7; width: 166.5px; height: 100%; min-height: 1104.49px; padding: 10px 0 10px 10px; float: right; vertical-align: top; }
+a { text-decoration: none; color: white; }
 
-.sidebar-section { padding-top: 10px; }
+a:hover { text-shadow: 0 0 10px white; }
 
-.sidebar-section-title { display: block; font-size: 1.2em; font-weight: 700; text-transform: capitalize; padding-bottom: 3px; }
+.skills { padding-top: 10px; }
 
-.skill-section-title { display: block; font-size: 1.1em; font-weight: 500; }
+.skill-section-title { display: block; padding-top: 10px; font-size: 1.1em; font-weight: 700; }
 
 .skill-section { display: block; margin: 10px 0; }
 
@@ -34,13 +36,13 @@ h4 { padding: 0; margin: 0 0 1em 0; }
 
 .experience-section-title { font-size: 1.2em; font-weight: 400; display: block; padding: 0 0 5px 0; text-transform: uppercase; }
 
-.experience-summary { padding: 10px 0; }
+.experience-summary { margin: 10px auto; display: inline-block; }
 
 .experience-title { font-size: 1.2em; margin-bottom: 3px; display: block; }
 
-.experience-element { display: inline-grid; grid-template-columns: 150px auto; }
+.experience-element { display: flex; }
 
-.experience-dates { margin-right: 10px; }
+.experience-dates { margin-right: 10px; min-width: 120px; }
 
 .experience-title { font-weight: 600; }
 
@@ -50,7 +52,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
 
 .education-element { padding-bottom: 7px; }
 
-.level { color: #8f4898; width: 50px; height: 8px; border: 1px solid currentColor; float: right; margin-right: 20px; margin-top: 3px; }
+.level { color: #e43156; width: 50px; height: 8px; border: 1px solid currentColor; float: right; margin-right: 20px; margin-top: 3px; }
 
 .level-1 { background: linear-gradient(to right, currentColor 0%, currentColor 20%, white 20%, white 100%); background: url("./images/bg-1.png"); }
 
@@ -62,9 +64,10 @@ h4 { padding: 0; margin: 0 0 1em 0; }
 
 .level-5 { background: currentColor; }
 
-@media print { @page { size: A4 portrait;
+@media print { @page { size: auto portrait;
     margin: 0; }
-  body { margin: 0; -webkit-print-color-adjust: exact; } }
+  body { margin: 0; -webkit-print-color-adjust: exact; }
+  .container { height: 1164px; } }
 </style>
 </head>
 
@@ -73,36 +76,143 @@ h4 { padding: 0; margin: 0 0 1em 0; }
     <div class="container">
       <div class="header">
         <h1>Alicja Raszkowska</h1>
-        <h3>+1 778-991-6550 &middot; alicja.raszkowska@gmail.com</h3>
-        <h3>github.com/trueskawka &middot; linkedin.com/in/alicjaraszkowska &middot; trueskawka.recurse.com</h3>
+        <h3>
+          <a href="https://twitter.com/mamrotynka">@mamrotynka</a>
+        </h3>
+        <h3>
+          <a href="https://github.com/trueskawka">github.com/trueskawka</a>
+        </h3>
+        <h3>
+          <a href="https://trueskawka.recurse.com">trueskawka.recurse.com</a>
+        </h3>
+        <h3>
+          alicja.raszkowska@gmail.com
+        </h3>
+        <h3>
+          <a href="https://linkedin.com/in/alicjaraszkowska">linkedin.com/in/alicjaraszkowska</a>
+        </h3>
+        <div class="skills">
+        <div class="skill-section">
+          <span class="skill-section-title">Web development</span>
+          <div class="skill">
+                <span>JavaScript &amp; Node.js</span>
+              </div>
+            <div class="skill">
+                <span>Progressive Web Apps</span>
+              </div>
+            <div class="skill">
+                <span>HTML &amp; CSS</span>
+              </div>
+            <div class="skill">
+                <span>Amazon Web Services</span>
+              </div>
+            <div class="skill">
+                <span>Static website generators</span>
+              </div>
+            
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">Data analytics</span>
+          <div class="skill">
+                <span>Python</span>
+              </div>
+            <div class="skill">
+                <span>CRAN R</span>
+              </div>
+            <div class="skill">
+                <span>Jupyter Notebook</span>
+              </div>
+            <div class="skill">
+                <span>Creating data pipelines</span>
+              </div>
+             
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">Other skills</span>
+          <div class="skill">
+                <span>Writing documentation</span>
+              </div><div class="skill">
+                <span>Building workflows</span>
+              </div><div class="skill">
+                <span>Public speaking</span>
+              </div><div class="skill">
+                <span>Mentoring</span>
+              </div> 
+        </div>
+
+        <div class="skill-section">
+          <span class="skill-section-title">Languages</span>
+          <p class="language">
+              <strong>English</strong>
+              <span>proficient, C2</span>
+            </p>
+          <p class="language">
+              <strong>Polish</strong>
+              <span>native</span>
+            </p>
+          <p class="language">
+              <strong>German</strong>
+              <span>intermediate, B2</span>
+            </p>
+          <p class="language">
+              <strong>Arabic</strong>
+              <span>intermediate, A2/B1</span>
+            </p>
+          
+        </div>
+      </div>
+
       </div>
       <div class="experience">
         <div class="experience-summary">
           <span class="experience-title">Quantitative economist turned web developer</span>
-          Looking for a role with a lot of responsibility, preferably working end-to-end with clients and their data (analyzing, planning, implementing and presenting), using JavaScript, CSS, Python/R.
+          Working with distributed systems, building backend services, and exploring CSS for fun.
         </div>
 
         <div class="experience-section">
           <span class="experience-section-title">experience</span>
           <div class="experience-element">
             <div class="experience-dates">
-              March 2017
+              September 2018
               <br>
               to Present
+            </div>
+            <div class="experience-details">
+              <div class="experience-title">
+                Mobify, Full-stack Engineer
+              </div>
+              <div class="experience-description">
+                Back-end development
+              </div>
+              <div class="experience-bullets">
+                <ul>
+                  <li>Building SDK tooling for Progressive Web Apps, with server-side rendering</li>
+                  <li>Leading engineering initiatives for improving communication and code quality</li>
+                  <li>Created a workflow for generating graphs and diagrams from Markdown-like files</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="experience-element">
+            <div class="experience-dates">
+              March 2017
+              <br>
+              to December 2017
             </div>
             <div class="experience-details">
               <div class="experience-title">
                 Freelance, Web Developer
               </div>
               <div class="experience-description">
-                Contract full-stack web development for clients including Xfive.co and Laboratorium EE
+                Contract full-stack web development for various clients
               </div>
               <div class="experience-bullets">
                 <ul>
                   <li>Lead a technical redesign sprint to plan new features and improve code quality</li>
                   <li>Improved code review and developer onboarding processes</li>
                   <li>Created a framework for building HTML email templates in Node.js</li>
-                  <li>Mentored two junior frontend developers in code review practices, testing and structuring code</li>
                   </ul>
               </div>
             </div>
@@ -118,7 +228,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
                 Outreachy (Zulip.org), Open Source Internship
               </div>
               <div class="experience-description">
-                Selected for Outreachy internship program to work on Zulip, the open source group chat
+                Selected for Outreachy internship program to work on Zulip, an open source group chat
               </div>
               <div class="experience-bullets">
                 <ul>
@@ -144,8 +254,8 @@ h4 { padding: 0; margin: 0 0 1em 0; }
               <div class="experience-bullets">
                 <ul>
                   <li>Full-stack development using C#, JavaScript, HTML, CSS, and ASP.NET</li>
-                  <li>Built new features, e.g. visualizations of price over time, maintained and improved legacy code base</li>
-                  <li>Generated sites for each drug and city pair in the database, which improved GdziePoLek.pl&#39;s positioning in the search engine for specific search terms from top 10-15 result to top 1-3 result</li>
+                  <li>Built new features, maintained and improved legacy code</li>
+                  <li>Improved GdziePoLek.pl&#39;s SEO positioning for specific search terms from top 10-15 to top 1-3</li>
                   </ul>
               </div>
             </div>
@@ -166,9 +276,8 @@ h4 { padding: 0; margin: 0 0 1em 0; }
               <div class="experience-bullets">
                 <ul>
                   <li>Created a framework for data analyses and visualizations using R, SQL and MS Excel</li>
-                  <li>Main analyst during national negotiations concerning primary healthcare funding in December 2014)</li>
-                  <li>Took part in a 6-week training for Regulatory Impact Assessments (RIAs) at the Department of Health (England)</li>
-                  <li>Trained members of the Polish RIA healthcare team in writing and assessing RIAs, assessed over 200 RIAs</li>
+                  <li>Took part in a 6-week training for Regulatory Impact Assessments (RIAs) in the UK</li>
+                  <li>Trained members of the Polish RIA healthcare team in writing and assessing RIAs</li>
                   <li>Lead the Evidence Informed Policy Network initiative (partnership with WHO)</li>
                   </ul>
               </div>
@@ -194,7 +303,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
               </div>
               <div class="experience-bullets">
                 <ul>
-                  <li>Conduct conversational and live-coding admissions interviews; worked in numerous programming languages</li>
+                  <li>Conducting conversational and live-coding admissions interviews; worked in numerous programming languages</li>
                   <li>Evaluating applicants’ programming ability and fit for program</li>
                   </ul>
               </div>
@@ -202,9 +311,9 @@ h4 { padding: 0; margin: 0 0 1em 0; }
           </div>
           <div class="experience-element">
             <div class="experience-dates">
-              Nov 2016 to Jan 2017
+              November 2016
               <br>
-              Jun 2017 to Sept 2017
+              to September 2017
             </div>
             <div class="experience-details">
               <div class="experience-title">
@@ -250,7 +359,7 @@ h4 { padding: 0; margin: 0 0 1em 0; }
           <div class="education-element">
             <div class="experience-details">
               <div class="experience-title">
-              Recurse Center – New York, NY 
+              Recurse Center – New York, NY
               </div>
               <div class="experience-description">
                 Self-directed programming retreat. Attended August - November 2016 and January - February 2018
@@ -260,155 +369,13 @@ h4 { padding: 0; margin: 0 0 1em 0; }
           <div class="education-element">
             <div class="experience-details">
               <div class="experience-title">
-              Warsaw School of Economics – Warsaw, Poland 
+              Warsaw School of Economics – Warsaw, Poland
               </div>
               <div class="experience-description">
-                Quantitative Methods in Economics and Information Systems, MSc (2012-2015, while working full-time), BSc (2008-2012)
+                Quantitative Methods in Economics and Information Systems, MSc (2012-2015), BSc (2008-2012)
               </div>
             </div>
           </div>
-          
-        </div>
-      </div>
-      <div class="sidebar">
-        <div class="sidebar-section">
-          <span class="sidebar-section-title">skills</span>
-          <div class="skill-section">
-            <span class="skill-section-title">Web development</span>
-            <div class="skill">
-                <strong>CSS</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>HTML</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>JavaScript</strong>
-                <div class="level level-4"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>PHP</strong>
-                <div class="level level-3"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Rails</strong>
-                <div class="level level-3"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Sinatra</strong>
-                <div class="level level-4"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Jekyll</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Node.js</strong>
-                <div class="level level-4"></div>
-                
-              </div>
-               
-          </div>
-
-          <div class="skill-section">
-            <span class="skill-section-title">Analytics</span>
-            <div class="skill">
-                <strong>R</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Visualization</strong>
-                <div class="level level-4"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Modeling</strong>
-                <div class="level level-3"></div>
-                
-              </div>
-               
-          </div>
-
-          <div class="skill-section">
-            <span class="skill-section-title">Soft skills</span>
-            <div class="skill">
-                <strong>Public speaking</strong>
-                <div class="level level-5"></div>
-                
-              </div> 
-          </div>
-        </div>
-
-        <div class="sidebar-section">
-          <span class="sidebar-section-title">software</span>
-          <div class="skill-section">
-            <span class="skill-section-title">Developer tools</span>
-            <div class="skill">
-                <strong>Git</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>GitHub</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>Bash</strong>
-                <div class="level level-4"></div>
-                
-              </div>
-               
-          </div>
-          
-          <div class="skill-section">
-            <span class="skill-section-title">Office software</span>
-            <div class="skill">
-                <strong>Excel</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>VBA</strong>
-                <div class="level level-3"></div>
-                
-              </div>
-              <div class="skill">
-                <strong>PowerPoint</strong>
-                <div class="level level-5"></div>
-                
-              </div>
-               
-          </div>
-        </div>
-
-        <div class="sidebar-section">
-          <span class="sidebar-section-title">languages</span>
-          <p class="language">
-              <strong>English</strong>
-              <span>proficient, C2</span>
-            </p>
-          <p class="language">
-              <strong>Polish</strong>
-              <span>native</span>
-            </p>
-          <p class="language">
-              <strong>German</strong>
-              <span>intermediate, B2</span>
-            </p>
-          <p class="language">
-              <strong>Arabic</strong>
-              <span>intermediate, A2/B1</span>
-            </p>
           
         </div>
       </div>

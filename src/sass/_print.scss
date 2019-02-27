@@ -1,11 +1,15 @@
 @media print {
   @page {
-    size: A4 portrait;
+    size: auto portrait;
     margin: 0;
   }
 
   body {
     margin: 0;
     -webkit-print-color-adjust: exact;
+  }
+
+  .container {
+    height: 1164px;
   }
 }
