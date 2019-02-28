@@ -2,7 +2,7 @@ body {
   font-family: "PT Sans", "Lucida Sans", sans-serif;
   font-size: 13px;
   margin: 0;
-  background-color: lightgray;
+  background-color: snow;
   min-width: 900px;
 }
 
@@ -28,7 +28,7 @@ h4 {
   margin: 0 0 1em 0;
 }
 
-$brand-color: #e43156;
+$brand-color: #e2274C;
 
 @import 'header';
 @import 'skills';

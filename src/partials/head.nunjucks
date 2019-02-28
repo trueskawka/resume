@@ -4,4 +4,7 @@
   <title>{{ data.name }} - resume</title>
 
   <style type="text/css">{% include "./../../build/css/main.css" %}</style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ data.name }}'s resume">
 </head>
