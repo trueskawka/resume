@@ -4,10 +4,10 @@
           <a href="{{ data.twitter.link }}">{{ data.twitter.handle }}</a>
         </h3>
         <h3>
-          <a href="{{ data.github.link }}">{{ data.github.name }}</a>
+          <a href="{{ data.website.link }}">{{ data.website.name }}</a>
         </h3>
         <h3>
-          <a href="{{ data.website.link }}">{{ data.website.name }}</a>
+          <a href="{{ data.github.link }}">{{ data.github.name }}</a>
         </h3>
         <h3>
           {{ data.email }}
