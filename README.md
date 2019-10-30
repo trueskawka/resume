@@ -6,6 +6,7 @@ editor would allow. Also, it's fun to set up tools!
 
 ### How to install
 
+0. Install node (don't use node 12.x) and npm
 1. Clone repo
 2. Run `npm install` in the cloned directory
 

@@ -4,7 +4,7 @@
     "handle": "@mamrotynka",
     "link": "https://twitter.com/mamrotynka"
   },
-  "email": "alicja.raszkowska@gmail.com",
+  "email": "hi@alicja.dev",
   "github": {
     "name": "github.com/trueskawka",
     "link": "https://github.com/trueskawka"
@@ -18,8 +18,8 @@
     "link": "https://alicja.dev"
   },
   "summary": {
-    "title": "Quantitative economist turned web developer",
-    "intro": "Working with distributed systems, building backend services, and exploring CSS for fun."
+    "title": "Software engineer with a knack for infrastructure",
+    "intro": "Working with distributed systems, building backend services, and making tools for fun."
   },
   "sections": [
     "experience",
@@ -28,8 +28,18 @@
   ],
   "experience": [
     {
-      "date_from": "September 2018",
+      "date_from": "October 2019",
       "date_to": "to Present",
+      "job_title": "Clio, Production Engineer",
+      "job_description": "DevOps",
+      "job_bullets": [
+       "Creating, improving, and maintaining a globally distributed mesh of service regions",
+       "Nurturing and evolving the development ecosystem"
+      ]
+    },
+    {
+      "date_from": "September 2018",
+      "date_to": "to October 2019",
       "job_title": "Mobify, Full-stack Engineer",
       "job_description": "Back-end development",
       "job_bullets": [
@@ -58,8 +68,8 @@
         "Worked on user experience through discussions, improving developer and user docs",
         "Conducted code reviews and worked in Python, Django, JavaScript, HTML, and CSS"
       ]
-     },
-     {
+    },
+    {
       "date_from": "August 2015",
       "date_to": "to May 2016",
       "job_title": "Goldenberry, Business Analyst and Web Developer",
@@ -69,8 +79,8 @@
         "Built new features, maintained and improved legacy code",
         "Improved GdziePoLek.pl's SEO positioning for specific search terms from top 10-15 to top 1-3"
       ]
-     },
-     {
+    },
+    {
       "date_from": "June 2013",
       "date_to": "to August 2015",
       "job_title": "Ministry of Health (Poland), Senior Specialist",
@@ -86,7 +96,7 @@
   "volunteer": [
     {
       "date_from": "May 2017",
-      "date_to": "to Present",
+      "date_to": "to June 2019",
       "job_title": "Recurse Center, Contract Alumni Interviewer",
       "job_bullets": [
         "Conducting conversational and live-coding admissions interviews; worked in numerous programming languages",
@@ -123,18 +133,30 @@
     }
   ],
   "skill_categories": [
+    "DevOps",
     "web development",
-    "data analytics",
     "other skills",
     "languages"
   ],
   "skills": [
     {
+      "skill_name": "AWS & CloudFormation",
+      "skill_category": "infrastructure"
+    },
+    {
+      "skill_name": "Building pipelines",
+      "skill_category": "infrastructure"
+    },
+    {
+      "skill_name": "Docker",
+      "skill_category": "infrastructure"
+    },
+    {
       "skill_name": "JavaScript & Node.js",
       "skill_category": "web"
     },
     {
-      "skill_name": "Progressive Web Apps",
+      "skill_name": "Server-side rendering",
       "skill_category": "web"
     },
     {
@@ -142,35 +164,7 @@
       "skill_category": "web"
     },
     {
-      "skill_name": "Amazon Web Services",
-      "skill_category": "web"
-    },
-    {
-      "skill_name": "Static website generators",
-      "skill_category": "web"
-    },
-    {
-      "skill_name": "Python",
-      "skill_category": "data"
-    },
-    {
-      "skill_name": "CRAN R",
-      "skill_category": "data"
-    },
-    {
-      "skill_name": "Jupyter Notebook",
-      "skill_category": "data"
-    },
-    {
-      "skill_name": "Creating data pipelines",
-      "skill_category": "data"
-    },
-    {
       "skill_name": "Writing documentation",
-      "skill_category": "soft"
-    },
-    {
-      "skill_name": "Building workflows",
       "skill_category": "soft"
     },
     {
@@ -196,8 +190,8 @@
       "language_level": "intermediate, B2"
     },
     {
-      "language": "Arabic",
-      "language_level": "intermediate, A2/B1"
+      "language": "American Sign Language",
+      "language_level": "beginner, A2"
     }
   ]
 }

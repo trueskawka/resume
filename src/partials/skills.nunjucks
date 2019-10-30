@@ -1,8 +1,8 @@
 <div class="skills">
         <div class="skill-section">
-          <span class="skill-section-title">{{ data.skill_categories[0] | capitalize}}</span>
+          <span class="skill-section-title">{{ data.skill_categories[0] }}</span>
           {% for skill in data.skills -%}
-            {% if skill.skill_category == "web" -%}
+            {% if skill.skill_category == "infrastructure" -%}
               {% set skill_name = skill.skill_name -%}
               {% include "partials/skill-element.nunjucks" %}
             {% endif -%}
@@ -12,7 +12,7 @@
         <div class="skill-section">
           <span class="skill-section-title">{{ data.skill_categories[1] | capitalize}}</span>
           {% for skill in data.skills -%}
-            {% if skill.skill_category == "data" -%}
+            {% if skill.skill_category == "web" -%}
               {% set skill_name = skill.skill_name -%}
               {% include "partials/skill-element.nunjucks" %}
             {% endif -%}
@@ -20,7 +20,7 @@
         </div>
 
         <div class="skill-section">
-          <span class="skill-section-title">{{ data.skill_categories[2] | capitalize}}</span>
+          <span class="skill-section-title">{{ data.skill_categories[2] | capitalize }}</span>
           {% for skill in data.skills -%}
             {% if skill.skill_category == "soft" -%}
               {% set skill_name = skill.skill_name -%}

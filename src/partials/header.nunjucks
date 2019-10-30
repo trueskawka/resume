@@ -1,16 +1,16 @@
 <div class="header">
         <h1>{{ data.name }}</h1>
         <h3>
-          <a href="{{ data.twitter.link }}">{{ data.twitter.handle }}</a>
-        </h3>
-        <h3>
           <a href="{{ data.website.link }}">{{ data.website.name }}</a>
         </h3>
         <h3>
-          <a href="{{ data.github.link }}">{{ data.github.name }}</a>
+          {{ data.email }}
         </h3>
         <h3>
-          {{ data.email }}
+          <a href="{{ data.twitter.link }}">{{ data.twitter.handle }}</a>
+        </h3>
+        <h3>
+          <a href="{{ data.github.link }}">{{ data.github.name }}</a>
         </h3>
         <h3>
           <a href="{{ data.linkedin.link }}">{{ data.linkedin.name }}</a>
