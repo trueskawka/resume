@@ -5,8 +5,9 @@ I created this simple setup to have more fine-grained control over my resume tha
 editor would allow. Also, it's fun to set up tools!
 
 ### How to install
+_Note: this is a legacy setup that needs some dependency updates_
 
-0. Install node (don't use node 12.x) and npm
+0. Install node 10
 1. Clone repo
 2. Run `npm install` in the cloned directory
 
